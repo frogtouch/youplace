@@ -1,4 +1,4 @@
-# events_app
+# Leads App
 
 > ### NestJS (Express + TypeORM + GraphQL + BcryptJS + JWT + Sqlite + PostgreSQL), React & TypeScript, Redux, Redux-Saga.
 
