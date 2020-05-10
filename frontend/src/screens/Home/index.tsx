@@ -7,6 +7,16 @@ import { ApplicationState } from '../../store';
 
 import * as UsersActions from '../../store/ducks/users/actions';
 
+//Styles
+import { Container } from './styles';
+
+//Components
+import Header from '../../components/Header';
+import FindHomes from '../../components/FindHomes'
+
+//Images
+import homeImage from '../../assets/home-image/modern-fitness.jpg';
+
 /* Tipagens de funções e estados do redux */
 interface StateProps {
   users: User[]
@@ -26,7 +36,7 @@ const mapStateToProps = (state: ApplicationState) => ({
 
 const mapDispatchToProps = (dispatch: Dispatch) => bindActionCreators(UsersActions, dispatch)
 
-const Board = (/* props: Props */) => {
+const Home = (/* props: Props */) => {
 
 /*   useEffect(() => {
     const { loadUsersRequest } = props
@@ -38,10 +48,13 @@ const Board = (/* props: Props */) => {
 
   return(
 
-    <div>
-      <h1 style={{color: "#000"}}>Hello World</h1>
-    </div>
+    <Container>
+      <Header />
+      <img src={homeImage} alt="home-image" />
+      <h3>Seu Imóvel com certeza está aqui!</h3>
+      <FindHomes />
+    </Container>
   )
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Board);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

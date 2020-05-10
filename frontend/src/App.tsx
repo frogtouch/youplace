@@ -1,10 +1,17 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 
-import Board from './components/Board';
+import Home from './screens/Home';
 
 import store from './store';
 
-const App = () => <Provider store={store}><Board /></Provider>;
+import GlobalStyles from './styles/global';
+
+const App = () => (
+    <Provider store={store}>
+      <Home />
+      <GlobalStyles />
+    </Provider>
+  );
 
 export default App;
