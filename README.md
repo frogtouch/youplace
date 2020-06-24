@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src="/github/readme-logo/isleads.png" width="200px">
+  <img alt="Logo" src="/github/readme-logo/iplace-logo.png" width="200px">
 </h1>
 
 <h1 align="center">Repository with Frontend, Backend and Mobile of the IPlace project.</h1>
