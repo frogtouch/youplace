@@ -12,7 +12,7 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 import { Container, Content, AnimationContainer, Background } from './styles';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/iplace-logo.png';
 import api from '../../services/api';
 
 interface ResetPasswordFormData {

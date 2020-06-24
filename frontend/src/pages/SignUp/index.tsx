@@ -15,7 +15,7 @@ import { useToast } from '../../hooks/toast';
 
 import { Container, Content, AnimationContainer, Background } from './styles';
 
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/iplace-logo.png';
 
 interface SignUpFormData {
   name: string;
