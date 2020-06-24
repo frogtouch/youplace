@@ -2,7 +2,7 @@
   <img alt="Logo" src="/github/readme-logo/isleads.png" width="200px">
 </h1>
 
-<h1 align="center">Repository with Frontend, Backend and Mobile of the IsLeads project.</h1>
+<h1 align="center">Repository with Frontend, Backend and Mobile of the IPlace project.</h1>
 <h3>See below, within access to each module of the project within its respective session, being Frontend, Backend and Mobile.</h3>
 
 ## **Clone the FullStack version project and access the folder**
@@ -10,7 +10,7 @@ $ git clone https://github.com/Vynny21/gobarber-gostack11.git && cd gobarber-api
 
 <h1>Backend</h1>
 <h3 align="center">
-  Express Application for GoBarber project
+  Express Application for IPlace project
 </h3>
 
 <p align="center">The best way to schedule your service!</p>
