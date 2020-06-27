@@ -13,26 +13,24 @@ $ git clone https://github.com/Vynny21/gobarber-gostack11.git && cd gobarber-api
   Express Application for IPlace project
 </h3>
 
-<p align="center">The best way to schedule your service!</p>
-
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EliasGcf/gobarber-api?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/badge/typescript-99.2-informational?color=%237D40E7">
 
-  <a href="https://www.linkedin.com/in/eliasgcf/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-elias%20gabriel-%23FF9000">
+  <a href="https://www.linkedin.com/in/vinicius-prudencio-64bb99128/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-vini%20prudencio-%237D40E7">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/gobarber-api?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/badge/repo%20size-920kb-orange?color=%237D40E7">
 
-  <a href="https://github.com/EliasGcf/gobarber-api/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/gobarber-api?color=%23FF9000">
+  <a href="https://github.com/Vynny21/fastfeet-frontend/commits/dev">
+    <img alt="GitHub last commit" src="https://img.shields.io/badge/last%20commit-june-orange?color=%237D40E7">
   </a>
 
-  <a href="https://github.com/EliasGcf/gobarber-api/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/gobarber-api?color=%23FF9000">
+  <a href="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=yellow">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=%237D40E7">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/gobarber-api?color=%23FF9000">
+  <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-orange?color=%237D40E7">
 </p>
 
 <p align="center">
@@ -43,9 +41,6 @@ $ git clone https://github.com/Vynny21/gobarber-gostack11.git && cd gobarber-api
   <a href="#-license">License</a>
 </p>
 
-<p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=PontoLoc&uri=https%3A%2F%2Fraw.githubusercontent.com%2FEliasGcf%2Fpontoloc-api%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
 
 ## 💇🏻‍♂️ About the project
 
@@ -54,10 +49,6 @@ This api provides everything needed to organize appointments between the barbers
 Customers can choose the best time available to them.
 
 Providers can see all their appointments, manage the times, also see if one client canceled the schedule.
-
-To see the **api client**, click here: [GoBarber Web](https://github.com/EliasGcf/gobarber-web)<br />
-To see the **web client**, click here: [GoBarber Web](https://github.com/EliasGcf/gobarber-web)<br />
-To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/EliasGcf/gobarber-mobile)
 
 ## 🚀 Technologies
 
@@ -172,29 +163,29 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <h1>Frontend</h1>
 <h3 align="center">
-  ReactJS Application for GoBarber project
+  ReactJS Application for YouPlace project
 </h3>
 
 <p align="center">The best way to schedule your service!</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EliasGcf/gobarber-web?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/badge/typescript-99.2-informational?color=%237D40E7">
 
-  <a href="https://www.linkedin.com/in/eliasgcf/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-elias%20gabriel-%23FF9000">
+  <a href="https://www.linkedin.com/in/vinicius-prudencio-64bb99128/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-vini%20prudencio-%237D40E7">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/gobarber-web?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/badge/repo%20size-920kb-orange?color=%237D40E7">
 
-  <a href="https://github.com/EliasGcf/gobarber-web/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/gobarber-web?color=%23FF9000">
+  <a href="https://github.com/Vynny21/fastfeet-frontend/commits/dev">
+    <img alt="GitHub last commit" src="https://img.shields.io/badge/last%20commit-june-orange?color=%237D40E7">
   </a>
 
-  <a href="https://github.com/EliasGcf/gobarber-web/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/gobarber-web?color=%23FF9000">
+  <a href="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=yellow">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=%237D40E7">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/gobarber-web?color=%23FF9000">
+  <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-orange?color=%237D40E7">
 </p>
 
 <p align="center">
@@ -212,11 +203,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </p>
 
 ## 💇🏻‍♂️ About the project
-
-Soon
-
-To see the **api**, click here: [GoBarber Rest API](https://github.com/EliasGcf/gobarber-api)</br>
-To see the **mobile client**, click here: [GoBarber Mobile](https://github.com/EliasGcf/gobarber-mobile)
 
 ## 🚀 Technologies
 
@@ -307,26 +293,24 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <img alt="Layout" src="./github/main-image/iplace.png">
 </p>
 
-<p align="center">The best way to schedule your service!</p>
-
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EliasGcf/gobarber-mobile?color=%23FF9000">
+  <img alt="GitHub top language" src="https://img.shields.io/badge/typescript-99.2-informational?color=%237D40E7">
 
-  <a href="https://www.linkedin.com/in/eliasgcf/" target="_blank" rel="noopener noreferrer">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-elias%20gabriel-%23FF9000">
+  <a href="https://www.linkedin.com/in/vinicius-prudencio-64bb99128/" target="_blank" rel="noopener noreferrer">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-vini%20prudencio-%237D40E7">
   </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/gobarber-mobile?color=%23FF9000">
+  <img alt="Repository size" src="https://img.shields.io/badge/repo%20size-920kb-orange?color=%237D40E7">
 
-  <a href="https://github.com/EliasGcf/gobarber-mobile/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/gobarber-mobile?color=%23FF9000">
+  <a href="https://github.com/Vynny21/fastfeet-frontend/commits/dev">
+    <img alt="GitHub last commit" src="https://img.shields.io/badge/last%20commit-june-orange?color=%237D40E7">
   </a>
 
-  <a href="https://github.com/EliasGcf/gobarber-mobile/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/gobarber-mobile?color=%23FF9000">
+  <a href="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=yellow">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Vynny21/fastfeet-frontend?color=%237D40E7">
   </a>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/gobarber-mobile?color=%23FF9000">
+  <img alt="GitHub" src="https://img.shields.io/badge/license-MIT-orange?color=%237D40E7">
 </p>
 
 <p align="center">
