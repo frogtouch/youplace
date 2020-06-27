@@ -20,7 +20,7 @@ import getValidationErrors from '../../utils/getValidationErrors';
 
 import { useAuth } from '../../hooks/auth';
 
-import logoImg from '../../assets/logo.png';
+import logoImg from '../../assets/dark/iplace-logo.png';
 
 import {
   Container,
@@ -120,7 +120,11 @@ const SignIn: React.FC = () => {
                 onSubmitEditing={() => formRef.current?.submitForm()}
               />
 
-              <Button onPress={() => formRef.current?.submitForm()}>
+              <Button style={{
+                marginLeft: 60,
+                width: 250
+                }}
+                onPress={() => formRef.current?.submitForm()}>
                 Entrar
               </Button>
             </Form>

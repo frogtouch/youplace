@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import defaultTheme from '../styles/theme/default';
+import defaultTheme from '../styles/themes/default';
 
 import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';

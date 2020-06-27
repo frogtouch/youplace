@@ -4,6 +4,6 @@ module.exports = {
     android: {},
   },
   assets: [
-    './assets/fonts/'
+    './assets/fonts/RobotoSlab-Medium.ttf', './assets/fonts/RobotoSlab-Regular.ttf'
   ],
 }

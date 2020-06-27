@@ -87,10 +87,13 @@ const Profile: React.FC = () => {
     );
   }, [user.id, updateUser]);
 
+  const newLocal = null;
   const handleSubmit = useCallback(
     async (data: ProfileFormData) => {
       try {
         formRef.current?.setErrors({});
+
+        type NewType = null;
 
         const schema = Yup.object().shape({
           name: Yup.string().required('Nome é obrigatório'),
@@ -109,9 +112,9 @@ const Profile: React.FC = () => {
             .when('old_password', {
               is: val => !!val.length,
               then: Yup.string().required('Campo obrigatório'),
-              otherwise: Yup.string(),
+              otherwise: Yup.string()
             })
-            .oneOf([Yup.ref('password'), null], 'Confirmação incorreta'),
+            .oneOf([Yup.ref('password')], 'Confirmação incorreta'),
         });
 
         await schema.validate(data, { abortEarly: false });

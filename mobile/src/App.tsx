@@ -8,7 +8,7 @@ import { ThemeProvider } from 'styled-components';
 import AppProvider from './hooks';
 
 import Routes from './routes';
-import defaultTheme from './styles/theme/default';
+import defaultTheme from './styles/themes/default';
 
 const App: React.FC = () => {
   return (
