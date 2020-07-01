@@ -16,8 +16,6 @@ import { useToast } from '../../hooks/toast';
 
 import { Container, Content, AnimationContainer, Background } from './styles';
 
-import logoImg from '../../assets/dark/youplace.png';
-
 interface SignUpFormData {
   name: string;
   email: string;

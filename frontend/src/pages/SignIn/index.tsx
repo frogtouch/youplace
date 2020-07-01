@@ -14,8 +14,6 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 import { Container, Content, AnimationContainer, Background } from './styles';
 
-import logoImg from '../../assets/dark/youplace.png';
-
 interface SignInFormData {
   email: string;
   password: string;
