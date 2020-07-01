@@ -9,7 +9,7 @@
 
 <h1>Backend</h1>
 <h3 align="center">
-  Express Application for IPlace project
+  Express Application for YouPlace project
 </h3>
 
 <p align="center">
@@ -43,11 +43,7 @@
 
 ## 💇🏻‍♂️ About the project
 
-This api provides everything needed to organize appointments between the barbers and customers.
-
-Customers can choose the best time available to them.
-
-Providers can see all their appointments, manage the times, also see if one client canceled the schedule.
+This api is manage app for rental and sale of real estate, developed with Typescript, NodeJs, Express, TypeORM, Postgres, ReactJs & React Native
 
 ## 🚀 Technologies
 
@@ -87,6 +83,8 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 
 ```bash
 $ git clone https://github.com/Vynny/youplace-app.git && cd youplace-app
+
+Go to the backend folder to access the API
 ```
 
 **Follow the steps below**
@@ -97,33 +95,16 @@ $ yarn
 
 # Make a copy of '.env.example' to '.env'
 # and set with YOUR environment variables.
-# The aws variables do not need to be filled for dev environment
 $ cp .env.example .env
 
-# Create the instance of postgreSQL using docker
-$ docker run --name gobarber-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=gobarber -e POSTGRES_PASSWORD=docker \
-              -p 5432:5432 -d postgres
-
-# Create the instance of mongoDB using docker
-$ docker run --name gobarber-mongodb -p 27017:27017 -d -t mongo
-
-# Create the instance of redis using docker
-$ docker run --name gobarber-redis -p 6379:6379 -d -t redis:alpine
-
-# Make a copy of 'ormconfig.example.json' to 'ormconfig.json'
-# and set the values, if they are not filled,
-# to connect with docker database containers
-$ cp ormconfig.example.json ormconfig.json
+# Start the services with docker-compose
+$ docker-compose up -d
 
 # Once the services are running, run the migrations
 $ yarn typeorm migration:run
 
-# To finish, run the api service
-$ yarn dev:server
+# Well done, project is started!```
 
-# Well done, project is started!
-```
 
 ## 🤔 How to contribute
 
@@ -133,20 +114,23 @@ $ yarn dev:server
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork EliasGcf/gobarber-api
+$ gh repo fork Vynny21/youplace-app
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-api
+$ git clone your-fork-url && cd youplace-app
 
 # Create a branch with your feature
 $ git checkout -b my-feature
 
 # Make the commit with your changes
 $ git commit -m 'feat: My new feature'
+
+# With Husky
+$ git commit -m 'feat(context): commit'
 
 # Send the code to your remote branch
 $ git push origin my-feature
@@ -253,14 +237,14 @@ $ yarn start
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork EliasGcf/gobarber-web
+$ gh repo fork Vynny21/youplace-app
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-web
+$ git clone your-fork-url && cd youplace-app
 
 # Create a branch with your feature
 $ git checkout -b my-feature
@@ -283,11 +267,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <h1>Mobile</h1>
 
 <h3 align="center">
-  React Native Application for GoBarber project
+  React Native Application for YouPlace project
 </h3>
 
 <p align="center">
-  <img alt="Layout" src="./github/main-image/iplace.png">
+  <img alt="Layout" src="./github/main-image/youplace-advertising.png">
 </p>
 
 <p align="center">
@@ -344,7 +328,7 @@ Technologies that I used to develop this mobile client
 
 ### Requirements
 
-- Have this application's [API](https://github.com/EliasGcf/gobarber-api) running
+- Have this application's [API](https://github.com/Vynny21/youplace-app) running
 
 **Clone the project and access the folder**
 
@@ -376,14 +360,15 @@ $ yarn ios
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork EliasGcf/gobarber-mobile
+$ gh repo fork Vynny21/youplace_mobile
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-mobile
+# 
+$ git clone your-fork-url && cd youplace_mobile
 
 # Create a branch with your feature
 $ git checkout -b my-feature
