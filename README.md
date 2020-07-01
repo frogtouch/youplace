@@ -2,7 +2,7 @@
   <img alt="Layout" src="./github/main-image/youplace-advertising.png">
 </h1>
 
-<h1 align="center">Repository with Frontend, Backend and Mobile of the IPlace project.</h1>
+<h1 align="center">Repository with Frontend, Backend and Mobile of the YouPlace project.</h1>
 <h3>See below, within access to each module of the project within its respective session, being Frontend, Backend and Mobile.</h3>
 
 ## **Clone the FullStack version project and access the folder**
