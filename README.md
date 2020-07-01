@@ -43,7 +43,7 @@
 
 ## 💇🏻‍♂️ About the project
 
-YouPlace - The best place to rent and sell real estate!
+<p align="center">YouPlace - The best place to rent and sell real estate!</p>
 
 This api is manage app for rental and sale of real estate, developed with Typescript, NodeJs, Express, TypeORM, Postgres e JWT.
 
@@ -270,8 +270,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <h3 align="center">
   React Native Application for YouPlace project
-  YouPlace - The best place to rent and sell real estate!
 </h3>
+
+<p align="center">YouPlace - The best place to rent and sell real estate!</p>
 
 <p align="center">
   <img alt="Layout" src="./github/main-image/youplace-advertising.png">
