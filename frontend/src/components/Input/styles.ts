@@ -9,13 +9,13 @@ interface ContainerProps {
 }
 
 export const Container = styled.div<ContainerProps>`
-  background: #232129;
+  background: ${props => props.theme.colors.inputColor};
   border-radius: 10px;
   padding: 16px;
   width: 100%;
 
-  border: 2px solid #232129;
-  color: #666360;
+  border: 2px solid ${props => props.theme.colors.border};
+  color: ${props => props.theme.colors.inputPlaceholder}
 
   display: flex;
   align-items: center;

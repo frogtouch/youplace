@@ -1,22 +1,40 @@
-import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react'
+import { ThemeProvider, DefaultTheme } from 'styled-components'
+import { BrowserRouter as Router } from 'react-router-dom'
+import usePersistedState from './utils/usePersistedState'
 
-import GlobalStyle from './styles/global';
+import Header from './components/Header'
+import light from './styles/themes/light'
+import dark from './styles/themes/dark'
 
-import Routes from './routes';
+import GlobalStyle from './styles/global'
 
-import AppProvider from './hooks';
+import AppProvider from './hooks'
+
+import Routes from './routes'
+
+if (process.env.NODE_ENV !== 'production') {
+  const { whyDidYouUpdate } = require('why-did-you-update')
+  whyDidYouUpdate(React)
+}
 
 const App: React.FC = () => {
+  const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', dark)
+
+  const toggleTheme = () => {
+    setTheme(theme.title === 'light' ? dark : light)
+  }
+
   return (
-    <BrowserRouter>
-      <AppProvider>
-        <Routes />
-      </AppProvider>
-
-      <GlobalStyle />
-    </BrowserRouter>
-  );
-};
-
-export default App;
+    <ThemeProvider theme={theme}>
+      <Router>
+        <AppProvider>
+          <Header toggleTheme={toggleTheme} />
+          <Routes />
+        </AppProvider>
+        <GlobalStyle />
+      </Router>
+    </ThemeProvider>
+  )
+}
+export default App

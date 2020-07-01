@@ -1,9 +1,10 @@
-import React, { useRef, useCallback } from 'react';
+import React, { useRef, useCallback, useContext } from 'react';
 import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
 import { Link, useHistory } from 'react-router-dom';
+import { ThemeContext } from 'styled-components'
 
 import { useAuth } from '../../hooks/auth';
 import { useToast } from '../../hooks/toast';
@@ -21,6 +22,8 @@ interface SignInFormData {
 }
 
 const SignIn: React.FC = () => {
+  const { logo } = useContext(ThemeContext)
+
   const formRef = useRef<FormHandles>(null);
   const history = useHistory();
 
@@ -70,7 +73,7 @@ const SignIn: React.FC = () => {
     <Container>
       <Content>
         <AnimationContainer>
-          <img src={logoImg} alt="YouPlace" />
+          <img src={logo} alt="YouPlace" />
           
           <Form ref={formRef} onSubmit={handleSubmit}>
             <h1>Faça seu logon</h1>

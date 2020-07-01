@@ -50,7 +50,7 @@ export const AnimationContainer = styled.div`
   }
 
   > a {
-    color: #ff9000;
+    color: ${props => props.theme.colors.text};
     display: block;
     margin-top: 50px;
     text-decoration: none;
