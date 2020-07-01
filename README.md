@@ -346,6 +346,9 @@ Technologies that I used to develop this mobile client
 
 ```bash
 $ git clone https://github.com/Vynny21/youplace-app.git && cd youplace-app
+OR
+$ git clone https://github.com/Vynny21/youplace_mobile.git
+
 ```
 
 **Follow the steps below**
