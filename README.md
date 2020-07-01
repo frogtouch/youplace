@@ -43,7 +43,7 @@
 
 ## 💇🏻‍♂️ About the project
 
-This api is manage app for rental and sale of real estate, developed with Typescript, NodeJs, Express, TypeORM, Postgres, ReactJs & React Native
+This api is manage app for rental and sale of real estate, developed with Typescript, NodeJs, Express, TypeORM, Postgres e JWT.
 
 ## 🚀 Technologies
 
