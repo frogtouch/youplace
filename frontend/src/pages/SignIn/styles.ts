@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import { shade } from 'polished';
 
-import signInBackgroundImg from '../../assets/dark/iplace-dark.png';
+import signInBackgroundImg from '../../assets/youplace.png';
 
 export const Container = styled.div`
   height: 100vh;
@@ -46,12 +46,13 @@ export const AnimationContainer = styled.div`
   }
 
   form {
-    margin: 50px 0;
+    margin: 5px 0;
     width: 340px;
     text-align: center;
 
     h1 {
-      margin-bottom: 24px;
+      margin-top: -10px;
+      margin-bottom: 10px;
     }
 
     a {

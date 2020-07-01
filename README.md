@@ -1,12 +1,11 @@
 <h1 align="center">
-  <img alt="Logo" src="/github/readme-logo/iplace-logo.png" width="200px">
+  <img alt="Layout" src="./github/main-image/youplace-advertising.png">
 </h1>
 
 <h1 align="center">Repository with Frontend, Backend and Mobile of the IPlace project.</h1>
 <h3>See below, within access to each module of the project within its respective session, being Frontend, Backend and Mobile.</h3>
 
 ## **Clone the FullStack version project and access the folder**
-$ git clone https://github.com/Vynny21/gobarber-gostack11.git && cd gobarber-api
 
 <h1>Backend</h1>
 <h3 align="center">
@@ -87,7 +86,7 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/EliasGcf/gobarber-api.git && cd gobarber-api
+$ git clone https://github.com/Vynny/youplace-app.git && cd youplace-app
 ```
 
 **Follow the steps below**
@@ -199,7 +198,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </br>
 
 <p align="center">
-  <img alt="Layout" src="./github/main-image/iplace.png">
+  <img alt="Layout" src="./github/main-image/youplace-advertising.png">
 </p>
 
 ## 💇🏻‍♂️ About the project
@@ -228,12 +227,10 @@ Technologies that I used to develop this web client
 
 ### Requirements
 
-- Have this application's [API](https://github.com/EliasGcf/gobarber-api) running
-
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/EliasGcf/gobarber-web.git && cd gobarber-web
+$ git clone https://github.com/Vynny21/youplace-app.git && cd youplace-app
 ```
 
 **Follow the steps below**
@@ -352,7 +349,7 @@ Technologies that I used to develop this mobile client
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/EliasGcf/gobarber-mobile.git && cd gobarber-mobile
+$ git clone https://github.com/Vynny21/youplace-app.git && cd youplace-app
 ```
 
 **Follow the steps below**

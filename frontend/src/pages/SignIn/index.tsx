@@ -13,7 +13,7 @@ import Input from '../../components/Input';
 import Button from '../../components/Button';
 import { Container, Content, AnimationContainer, Background } from './styles';
 
-import logoImg from '../../assets/iplace-logo.png';
+import logoImg from '../../assets/dark/youplace.png';
 
 interface SignInFormData {
   email: string;
@@ -70,7 +70,7 @@ const SignIn: React.FC = () => {
     <Container>
       <Content>
         <AnimationContainer>
-          <img src={logoImg} alt="GoBarber" />
+          <img src={logoImg} alt="YouPlace" />
           
           <Form ref={formRef} onSubmit={handleSubmit}>
             <h1>Faça seu logon</h1>

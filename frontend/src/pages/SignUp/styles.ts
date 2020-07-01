@@ -40,19 +40,19 @@ export const AnimationContainer = styled.div`
   animation: ${appearFromRight} 1s;
 
   form {
-    margin: 40px 0;
+    margin: -30px 0;
     width: 340px;
     text-align: center;
 
     h1 {
-      margin-bottom: 24px;
+      margin-bottom: 10px;
     }
   }
 
   > a {
     color: #ff9000;
     display: block;
-    margin-top: 24px;
+    margin-top: 50px;
     text-decoration: none;
     transition: color 0.3s;
 
