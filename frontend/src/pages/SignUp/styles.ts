@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import { shade } from 'polished';
 
-import signUpBackgroundImg from '../../assets/properties.jpg';
+import signUpBackgroundImg from '../../assets/backgrounds/bg-youplace1.jpg';
 
 export const Container = styled.div`
   height: 100vh;
@@ -9,6 +9,7 @@ export const Container = styled.div`
   display: flex;
   align-items: stretch;
 `;
+
 
 export const Content = styled.div`
   display: flex;
@@ -20,10 +21,10 @@ export const Content = styled.div`
   max-width: 700px;
 `;
 
-const appearFromRight = keyframes`
+const appearFromLeft = keyframes`
   from {
     opacity: 0;
-    transform: translateX(50px)
+    transform: translateX(-50px)
   }
   to {
     opacity: 1;
@@ -36,23 +37,43 @@ export const AnimationContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 25px;
 
-  animation: ${appearFromRight} 1s;
+  animation: ${appearFromLeft} 1s;
+
+  h3 {
+    font-size: 15px;
+    color: #ff9000;
+  }
 
   form {
-    margin: -30px 0;
+    margin: 10px 0;
     width: 340px;
     text-align: center;
 
     h1 {
+      margin-top: 25px;
       margin-bottom: 10px;
+    }
+
+    a {
+      color: ${props => props.theme.colors.text};
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      transition: color 0.3s;
+
+      &:hover {
+        color: ${shade(0.2, '#f4ede8')};
+      }
     }
   }
 
   > a {
     color: ${props => props.theme.colors.text};
     display: block;
-    margin-top: 50px;
+    margin-top: 24px;
     text-decoration: none;
     transition: color 0.3s;
 

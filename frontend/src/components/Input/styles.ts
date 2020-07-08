@@ -13,6 +13,7 @@ export const Container = styled.div<ContainerProps>`
   border-radius: 10px;
   padding: 16px;
   width: 100%;
+  height: 50px;
 
   border: 2px solid ${props => props.theme.colors.border};
   color: ${props => props.theme.colors.inputPlaceholder}

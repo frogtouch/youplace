@@ -1,4 +1,4 @@
-import logoL from '../../assets/light/youplace.png'
+import logoL from '../../assets/logo/youplace.png'
 
 export default {
   title: 'light',
@@ -11,8 +11,10 @@ export default {
     border: '#555b6e',
     background: '#FFFFFF',
     li: '#ffff',
-    text: '#0d0d0d',
+    toggle: '#0d0d0d',
+    text: '#293241',
     inputColor: '#E5E5E5',
     inputPlaceholder: '#000000',
+    insideButton: '#293241'
   },
 }

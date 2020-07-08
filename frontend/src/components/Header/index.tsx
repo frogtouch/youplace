@@ -22,9 +22,9 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         width={40}
         handleDiameter={20}
         offColor={colors.secundary}
-        onColor={colors.text}
+        onColor={colors.toggle}
         offHandleColor={colors.secundary}
-        onHandleColor={colors.text}
+        onHandleColor={colors.toggle}
       />
     </Container>
   )

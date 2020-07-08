@@ -12,6 +12,7 @@ import getValidationErrors from '../../utils/getValidationErrors';
 
 import Input from '../../components/Input';
 import Button from '../../components/Button';
+
 import { Container, Content, AnimationContainer, Background } from './styles';
 
 interface SignInFormData {
@@ -69,6 +70,7 @@ const SignIn: React.FC = () => {
 
   return (
     <Container>
+      <Background>
       <Content>
         <AnimationContainer>
           <img src={logo} alt="YouPlace" />
@@ -85,18 +87,20 @@ const SignIn: React.FC = () => {
               placeholder="Senha"
             />
 
-            <Button type="submit">Entrar</Button>
+            <Button type="submit">Entrar como corretor</Button>
+            <Button type="submit">Entrar como usuário</Button>
 
             <Link to="/forgot-password">Esqueci minha senha</Link>
           </Form>
 
-          <Link to="/signup">
+          <Link to="/signup"
+            style={{fontWeight: 'bold'}}>
             <FiLogIn />
             Criar conta
           </Link>
         </AnimationContainer>
       </Content>
-      <Background />
+      </Background>
     </Container>
   );
 };

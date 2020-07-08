@@ -8,7 +8,7 @@ import { FiPower, FiClock } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import * as S from './styles';
 
-import logoImg from '../../assets/dark/youplace.png';
+import logoImg from '../../assets/logo/youplace.png';
 import { useAuth } from '../../hooks/auth';
 import api from '../../services/api';
 

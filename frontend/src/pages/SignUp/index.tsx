@@ -14,6 +14,7 @@ import Button from '../../components/Button';
 
 import { useToast } from '../../hooks/toast';
 
+//import Background from '../../components/Background'
 import { Container, Content, AnimationContainer, Background } from './styles';
 
 interface SignUpFormData {
@@ -73,7 +74,7 @@ const SignUp: React.FC = () => {
 
   return (
     <Container>
-      <Background />
+      <Background>
       <Content>
         <AnimationContainer>
           <img src={logo} alt="YouPlace" />
@@ -95,12 +96,14 @@ const SignUp: React.FC = () => {
             <Button type="submit">Cadastrar</Button>
           </Form>
 
-          <Link to="/">
+          <Link to="/"
+            style={{fontWeight: 'bold'}}>
             <FiArrowLeft />
             Voltar para logon
           </Link>
         </AnimationContainer>
       </Content>
+      </Background>
     </Container>
   );
 };

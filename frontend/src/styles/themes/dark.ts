@@ -1,4 +1,4 @@
-import logo from '../../assets/dark/youplace.png'
+import logo from '../../assets/logo/youplace.png'
 
 export default {
   title: 'dark',
@@ -11,8 +11,10 @@ export default {
     border: '#232129',
     background: '#312E38',
     li: '#232129',
+    toggle: '#FFFFFF',
     text: '#FFFFFF',
     inputColor: '#232129',
     inputPlaceholder: '#666360',
+    insideButton: '#FFFFFF'
   },
 }

@@ -12,9 +12,11 @@ declare module 'styled-components' {
       background: string
       border: string
       li: string
+      toggle: string
       text: string
       inputColor: string
       inputPlaceholder: string
+      insideButton: string
     }
   }
 }
