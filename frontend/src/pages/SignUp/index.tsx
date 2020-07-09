@@ -14,7 +14,6 @@ import Button from '../../components/Button';
 
 import { useToast } from '../../hooks/toast';
 
-//import Background from '../../components/Background'
 import { Container, Content, AnimationContainer, Background } from './styles';
 
 interface SignUpFormData {
@@ -73,38 +72,38 @@ const SignUp: React.FC = () => {
   );
 
   return (
-    <Container>
-      <Background>
-      <Content>
-        <AnimationContainer>
-          <img src={logo} alt="YouPlace" />
+    <Background>
+      <Container>
+        <Content>
+          <AnimationContainer>
+            <img src={logo} alt="YouPlace" />
 
-          <Form ref={formRef} onSubmit={handleSubmit}>
-            <h1>Faça seu cadastro</h1>
+            <Form ref={formRef} onSubmit={handleSubmit}>
+              <h1>Faça seu cadastro</h1>
 
-            <Input name="name" icon={FiUser} placeholder="Nome" />
+              <Input name="name" icon={FiUser} placeholder="Nome" />
 
-            <Input name="email" icon={FiMail} placeholder="E-mail" />
+              <Input name="email" icon={FiMail} placeholder="E-mail" />
 
-            <Input
-              name="password"
-              icon={FiLock}
-              type="password"
-              placeholder="Senha"
-            />
+              <Input
+                name="password"
+                icon={FiLock}
+                type="password"
+                placeholder="Senha"
+              />
 
-            <Button type="submit">Cadastrar</Button>
-          </Form>
+              <Button type="submit">Cadastrar</Button>
+            </Form>
 
-          <Link to="/"
-            style={{fontWeight: 'bold'}}>
-            <FiArrowLeft />
-            Voltar para logon
-          </Link>
-        </AnimationContainer>
-      </Content>
-      </Background>
-    </Container>
+            <Link to="/"
+              style={{fontWeight: 'bold'}}>
+              <FiArrowLeft />
+              Voltar para logon
+            </Link>
+          </AnimationContainer>
+        </Content>
+      </Container>
+    </Background>
   );
 };
 
