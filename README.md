@@ -1,6 +1,6 @@
 <h1 align="center">Yet in development!</h1>
 <h1 align="center">
-  <img alt="Layout" src="./github/main-image/video/youplace-video.mov">
+  <img alt="Layout" src="./github/main-image/video/youplace-video.gif">
 </h1>
 
 <h1 align="center">Repository with Frontend, Backend and Mobile of the YouPlace project.</h1>
