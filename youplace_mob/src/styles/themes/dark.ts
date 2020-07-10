@@ -10,7 +10,7 @@ export default {
 
     background: '#312E38',
     li: '#232129',
-    text: '#f4ede8',
+    text: '#FFFFFF',
     inputColor: '#FFFFFF',
     inputPlaceholder: '#666360',
   },
