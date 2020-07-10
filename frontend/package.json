@@ -16,6 +16,7 @@
     "date-fns": "^2.14.0",
     "polished": "^3.5.2",
     "react": "^16.13.1",
+    "react-background-slider": "^2.0.0",
     "react-background-slideshow": "^1.0.4",
     "react-bootstrap": "^1.1.1",
     "react-day-picker": "^7.4.8",

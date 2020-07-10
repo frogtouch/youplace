@@ -14,12 +14,26 @@ import Button from '../../components/Button';
 
 import { useToast } from '../../hooks/toast';
 
+import BackgroundSlider from 'react-background-slider'
+
+import bg1 from '../../assets/backgrounds/bg-youplace1.jpg'
+import bg2 from '../../assets/backgrounds/bg-youplace2.jpg'
+import bg3 from '../../assets/backgrounds/bg-youplace3.jpg'
+import bg4 from '../../assets/backgrounds/bg-youplace4.jpg'
+
+
 import { Container, Content, AnimationContainer, Background } from './styles';
 
 interface SignUpFormData {
   name: string;
   email: string;
   password: string;
+}
+
+interface BackgroundImage {
+  images: string[];
+  duration: number;
+  transition: number;
 }
 
 const SignUp: React.FC = () => {
@@ -72,9 +86,11 @@ const SignUp: React.FC = () => {
   );
 
   return (
-    <Background>
-      <Container>
-        <Content>
+    <Container>
+      <BackgroundSlider
+          images={[bg1, bg2, bg3, bg4]}
+          duration={10} transition={2} />        
+          <Content>
           <AnimationContainer>
             <img src={logo} alt="YouPlace" />
 
@@ -102,8 +118,7 @@ const SignUp: React.FC = () => {
             </Link>
           </AnimationContainer>
         </Content>
-      </Container>
-    </Background>
+    </Container>
   );
 };
 

@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes, css } from 'styled-components';
 import { shade } from 'polished';
 
 import signInBackgroundImg from '../../assets/backgrounds/bg-youplace1.jpg';
@@ -90,8 +90,24 @@ export const AnimationContainer = styled.div`
   }
 `;
 
+const BackgroundKeyframes = keyframes`
+  0%,100%{
+    background-image: url('../../assets/backgrounds/bg-youplace1.jpg');
+  }
+  25%{
+    background-image: url('../../assets//backgrounds/bg-youplace2.jpg');
+  }
+  50%{
+    background-image: url('../../assets/backgrounds/bg-youplace3.jpg');
+  }
+  75%{
+    background-image: url('../../assets/backgrounds/bg-youplace4.jpg');
+  }
+`
+
 export const Background = styled.div`
   flex: 1;
+  background-size: cover;
   background: url(${signInBackgroundImg}) no-repeat center;
   background-size: cover;
 `;

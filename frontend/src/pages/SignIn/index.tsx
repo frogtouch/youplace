@@ -13,7 +13,14 @@ import getValidationErrors from '../../utils/getValidationErrors';
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
-import { Container, Content, AnimationContainer, Background } from './styles';
+import BackgroundSlider from 'react-background-slider'
+
+import bg1 from '../../assets/backgrounds/bg-youplace1.jpg'
+import bg2 from '../../assets/backgrounds/bg-youplace2.jpg'
+import bg3 from '../../assets/backgrounds/bg-youplace3.jpg'
+import bg4 from '../../assets/backgrounds/bg-youplace4.jpg'
+
+import { Container, Content, AnimationContainer } from './styles';
 
 interface SignInFormData {
   email: string;
@@ -70,37 +77,37 @@ const SignIn: React.FC = () => {
 
   return (
     <Container>
-      <Background>
-      <Content>
-        <AnimationContainer>
-          <img src={logo} alt="YouPlace" />
-          
-          <Form ref={formRef} onSubmit={handleSubmit}>
-            <h1>Faça seu logon</h1>
+      <BackgroundSlider
+        images={[bg1, bg2, bg3, bg4]}
+        duration={10} transition={2} />
+        <Content>
+          <AnimationContainer>
+            <img src={logo} alt="YouPlace" />
+            
+            <Form ref={formRef} onSubmit={handleSubmit}>
+              <h1>Faça seu logon</h1>
 
-            <Input name="email" icon={FiMail} placeholder="E-mail" />
+              <Input name="email" icon={FiMail} placeholder="E-mail" />
 
-            <Input
-              name="password"
-              icon={FiLock}
-              type="password"
-              placeholder="Senha"
-            />
+              <Input
+                name="password"
+                icon={FiLock}
+                type="password"
+                placeholder="Senha"
+              />
 
-            <Button type="submit">Entrar como corretor</Button>
-            <Button type="submit">Entrar como usuário</Button>
+              <Button type="submit">Entrar</Button>
 
-            <Link to="/forgot-password">Esqueci minha senha</Link>
-          </Form>
+              <Link to="/forgot-password">Esqueci minha senha</Link>
+            </Form>
 
-          <Link to="/signup"
-            style={{fontWeight: 'bold'}}>
-            <FiLogIn />
-            Criar conta
-          </Link>
-        </AnimationContainer>
-      </Content>
-      </Background>
+            <Link to="/signup"
+              style={{fontWeight: 'bold'}}>
+              <FiLogIn />
+              Criar conta
+            </Link>
+          </AnimationContainer>
+        </Content>
     </Container>
   );
 };
