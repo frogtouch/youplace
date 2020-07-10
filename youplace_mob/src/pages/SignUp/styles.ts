@@ -2,14 +2,6 @@ import styled from 'styled-components/native';
 import {Platform} from 'react-native';
 import {getBottomSpace} from 'react-native-iphone-x-helper';
 
-import signUpBackgroundImg from '../../assets/backgrounds/bg-youplace1.jpg';
-
-export const ImageBg = styled.ImageBackground`
-  width: 100%;
-  height: 100%;
-  background: url(${signUpBackgroundImg}) no-repeat center;
-`;
-
 export const Container = styled.View`
   flex: 1;
   align-items: center;
