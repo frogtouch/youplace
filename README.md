@@ -1,6 +1,6 @@
 <h1 align="center">Yet in development!</h1>
 <h1 align="center">
-  <img alt="Layout" src="./github/main-image/signin/youplace-signin-advertising.png">
+  <img alt="Layout" src="./github/main-image/video/youplace-video.mov">
 </h1>
 
 <h1 align="center">Repository with Frontend, Backend and Mobile of the YouPlace project.</h1>
@@ -185,10 +185,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </br>
 
 <p align="center">
-  <img alt="Layout" src="./github/main-image/signin/youplace-signin-advertising.png">
+  <img alt="Layout" src="./github/main-image/signin/youplace-signin.png">
 </p>
 <p align="center">
-  <img alt="Layout" src="./github/main-image/signup/youplace-signup-advertising.png">
+  <img alt="Layout" src="./github/main-image/signup/youplace-signup.png">
 </p>
 
 
@@ -280,10 +280,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">YouPlace - The best place to rent and sell real estate!</p>
 
 <p align="center">
-  <img alt="Layout" src="./github/main-image/signin/youplace-signin-advertising.png">
+  <img alt="Layout" src="./github/main-image/signin/youplace-signin.png">
 </p>
 <p align="center">
-  <img alt="Layout" src="./github/main-image/signup/youplace-signup-advertising.png">
+  <img alt="Layout" src="./github/main-image/signup/youplace-signup.png">
 </p>
 
 <p align="center">
