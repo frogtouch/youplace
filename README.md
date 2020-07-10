@@ -279,13 +279,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <p align="center">YouPlace - The best place to rent and sell real estate!</p>
 
-<div align="center">
-  <img alt="Layout" src="./github/main-image/signin/youplace-signin.png">
-</div>
-<div align="center">
-  <img alt="Layout" src="./github/main-image/signup/youplace-signup.png">
-</div>
-
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/badge/typescript-99.2-informational?color=%237D40E7">
 
@@ -313,6 +306,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
+
+<div align="center">
+  <img alt="Layout" src="./github/main-image/signin/youplace-signin.png">
+</div>
+<div align="center">
+  <img alt="Layout" src="./github/main-image/signup/youplace-signup.png">
+</div>
+
 
 ## 💇🏻‍♂️ About the project
 
