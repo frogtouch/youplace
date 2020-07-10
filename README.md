@@ -1,7 +1,7 @@
 <h1 align="center">Yet in development!</h1>
-<h1 align="center">
-  <img alt="Layout" src="./github/main-image/video/youplace-video.gif">
-</h1>
+<div align="center">
+  <iframe alt="Layout" src="./github/main-image/video/youplace-video.mov">
+</div>
 
 <h1 align="center">Repository with Frontend, Backend and Mobile of the YouPlace project.</h1>
 <h3>See below, within access to each module of the project within its respective session, being Frontend, Backend and Mobile.</h3>
@@ -184,12 +184,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </br>
 
-<p align="center">
+<div align="center">
   <img alt="Layout" src="./github/main-image/signin/youplace-signin.png">
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img alt="Layout" src="./github/main-image/signup/youplace-signup.png">
-</p>
+</div>
 
 
 ## 💇🏻‍♂️ About the project
@@ -279,12 +279,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <p align="center">YouPlace - The best place to rent and sell real estate!</p>
 
-<p align="center">
+<div align="center">
   <img alt="Layout" src="./github/main-image/signin/youplace-signin.png">
-</p>
-<p align="center">
+</div>
+<div align="center">
   <img alt="Layout" src="./github/main-image/signup/youplace-signup.png">
-</p>
+</div>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/badge/typescript-99.2-informational?color=%237D40E7">
