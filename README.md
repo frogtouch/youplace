@@ -1,5 +1,9 @@
 <h1 align="center">Yet in development!</h1>
 <div align="center">
+  <img alt="Layout" src="./github/main-image/logo/youplace-logo.png">
+</div>
+<br/>
+<div align="center">
   <img alt="Layout" src="./github/main-image/gif/youplace-video.gif">
 </div>
 
@@ -312,6 +316,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </div>
 <div align="center">
   <img alt="Layout" src="./github/main-image/signup/youplace-signup.png">
+</div>
+<div align="center">
+  <img alt="Layout" src="./github/main-image/splashscreen/youplace-splashscreen.png">
 </div>
 
 
