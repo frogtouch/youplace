@@ -10,7 +10,14 @@ import getValidationErrors from '../../utils/getValidationErrors';
 
 import Input from '../../components/Input';
 import Button from '../../components/Button';
-import { Container, Content, AnimationContainer, Background } from './styles';
+import { Container, Content, AnimationContainer } from './styles';
+
+import BackgroundSlider from 'react-background-slider'
+
+import bg1 from '../../assets/backgrounds/bg-youplace1.jpg'
+import bg2 from '../../assets/backgrounds/bg-youplace2.jpg'
+import bg3 from '../../assets/backgrounds/bg-youplace3.jpg'
+import bg4 from '../../assets/backgrounds/bg-youplace4.jpg'
 
 import logoImg from '../../assets/logo/youplace.png';
 import api from '../../services/api';
@@ -75,6 +82,9 @@ const ForgotPassword: React.FC = () => {
 
   return (
     <Container>
+      <BackgroundSlider
+        images={[bg1, bg2, bg3, bg4]}
+        duration={10} transition={2} />
       <Content>
         <AnimationContainer>
           <img src={logoImg} alt="GoBarber" />
@@ -95,7 +105,6 @@ const ForgotPassword: React.FC = () => {
           </Link>
         </AnimationContainer>
       </Content>
-      <Background />
     </Container>
   );
 };

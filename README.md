@@ -194,6 +194,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   <img alt="Layout" src="./github/main-image/signup/youplace-signup.png">
 </div>
+<div align="center">
+  <img alt="Layout" src="./github/main-image/reset-password/youplace-reset-password.png">
+</div>
 
 
 ## 💇🏻‍♂️ About the project
