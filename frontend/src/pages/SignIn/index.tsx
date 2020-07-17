@@ -20,6 +20,8 @@ import bg2 from '../../assets/backgrounds/bg-youplace2.jpg'
 import bg3 from '../../assets/backgrounds/bg-youplace3.jpg'
 import bg4 from '../../assets/backgrounds/bg-youplace4.jpg'
 
+import logoImg from '../../assets/logo/youplace.png'
+
 import { Container, Content, AnimationContainer } from './styles';
 
 interface SignInFormData {
@@ -82,7 +84,7 @@ const SignIn: React.FC = () => {
         duration={10} transition={2} />
         <Content>
           <AnimationContainer>
-            <img src={logo} alt="YouPlace" />
+            <img src={logoImg} alt="YouPlace" />
             
             <Form ref={formRef} onSubmit={handleSubmit}>
               <h1>Faça seu logon</h1>
